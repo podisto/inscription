@@ -1,0 +1,50 @@
+#registration-step {
+  margin: 0;
+  padding: 0;
+}
+#registration-step li {
+  list-style: none;
+  float: left;
+  padding: 5px 10px;
+  border-top: #eee 1px solid;
+  border-left: #eee 1px solid;
+  border-right: #eee 1px solid;
+}
+#registration-step li.highlight {
+  background-color: #eee;
+}
+#registration-form {
+  clear: both;
+  border: 1px #eee solid;
+  padding: 20px;
+}
+.demoInputBox {
+  padding: 10px;
+  border: #f0f0f0 1px solid;
+  border-radius: 4px;
+  background-color: #fff;
+  width: 80%;
+}
+.registration-error {
+  color: #ff0000;
+  padding-left: 15px;
+}
+.message {
+  color: #00ff00;
+  font-weight: bold;
+  width: 100%;
+  padding: 10;
+}
+.btnAction {
+  padding: 5px 10px;
+  background-color: #09f;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+fieldset {
+    border: 1px solid #d2d6dd;
+    border-radius: 10px;
+}
